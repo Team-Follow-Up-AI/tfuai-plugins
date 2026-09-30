@@ -1,0 +1,18 @@
+{
+  "name": "tfuai",
+  "version": "1.0.0",
+  "description": "Run Team Follow Up AI from Grok Build: manage voice agents, campaigns, contacts, calls and the power dialer through the official hosted MCP server. Sign in with OAuth on first use.",
+  "author": {
+    "name": "Team Follow Up AI",
+    "email": "support@teamfollowup.ai",
+    "url": "https://teamfollowup.ai"
+  },
+  "repository": "https://github.com/Team-Follow-Up-AI/tfuai-plugins",
+  "homepage": "https://docs.teamfollowup.ai/mcp-actions",
+  "license": "Apache-2.0",
+  "keywords": [
+    "team follow up ai",
+    "teamfollowup",
+    "tfuai"
+  ]
+}

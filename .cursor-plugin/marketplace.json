@@ -1,0 +1,18 @@
+{
+  "name": "tfuai-plugins",
+  "owner": {
+    "name": "Team Follow Up AI",
+    "email": "support@teamfollowup.ai"
+  },
+  "metadata": {
+    "description": "Official Team Follow Up AI plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tfuai",
+      "source": "./plugins/tfuai",
+      "description": "Run Team Follow Up AI through the official hosted MCP server."
+    }
+  ]
+}

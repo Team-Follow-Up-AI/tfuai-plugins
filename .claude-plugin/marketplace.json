@@ -1,0 +1,19 @@
+{
+  "name": "tfuai-plugins",
+  "owner": {
+    "name": "Team Follow Up AI",
+    "email": "support@teamfollowup.ai",
+    "url": "https://teamfollowup.ai"
+  },
+  "metadata": {
+    "description": "Team Follow Up AI plugins for Claude",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tfuai",
+      "source": "./plugins/tfuai",
+      "description": "Run Team Follow Up AI through its hosted MCP server."
+    }
+  ]
+}

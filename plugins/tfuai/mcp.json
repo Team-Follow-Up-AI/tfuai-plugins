@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "tfuai": {
+      "url": "https://api.teamfollowup.ai/api/mcp"
+    }
+  }
+}

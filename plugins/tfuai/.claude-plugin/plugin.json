@@ -1,0 +1,22 @@
+{
+  "name": "tfuai",
+  "displayName": "Team Follow Up AI",
+  "version": "1.0.0",
+  "description": "Run Team Follow Up AI from Claude: manage voice agents, campaigns, contacts, calls and the power dialer through the Team Follow Up AI hosted MCP server. Sign in with OAuth on first use.",
+  "author": {
+    "name": "Team Follow Up AI",
+    "email": "support@teamfollowup.ai",
+    "url": "https://teamfollowup.ai"
+  },
+  "homepage": "https://docs.teamfollowup.ai/mcp-actions",
+  "repository": "https://github.com/Team-Follow-Up-AI/tfuai-plugins",
+  "license": "Apache-2.0",
+  "keywords": [
+    "team follow up ai",
+    "teamfollowup",
+    "tfuai",
+    "voice agents",
+    "ai calling",
+    "gohighlevel"
+  ]
+}
