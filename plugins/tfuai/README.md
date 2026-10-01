@@ -45,6 +45,8 @@ To try it in Claude Code before the listing is live:
 
 Open the Cursor Marketplace, search for **Team Follow Up AI** and install it. The first tool call opens the sign-in flow in your browser.
 
+The Cursor plugin connects in [search mode](https://docs.teamfollowup.ai/mcp-actions#search-mode-for-clients-that-limit-tools), because Cursor works best with a short tool list. Instead of every tool, the agent gets `search_tools` to find the right one, `call_read_tool` to run tools that only read, and `call_write_tool` to run tools that change data. Everything is still reachable, and you can auto-approve reads in Cursor while still confirming every write. To get the full list instead, remove `?mode=search` from the URL in `mcp.json`.
+
 To try it before the listing is live, copy the `plugins/tfuai` folder of this repository into `~/.cursor/plugins/local/tfuai` and restart Cursor.
 
 ### Grok Build
@@ -71,7 +73,7 @@ A broad grant can expose a lot of tools. To send the agent only the modules you 
 https://api.teamfollowup.ai/api/mcp?modules=contacts,calls
 ```
 
-An unknown module name returns HTTP `400` with the list of valid names.
+An unknown module name returns HTTP `400` with the list of valid names. In Cursor, keep search mode and add the filter after it: `?mode=search&modules=contacts,calls`.
 
 ## Writes have real effects
 
