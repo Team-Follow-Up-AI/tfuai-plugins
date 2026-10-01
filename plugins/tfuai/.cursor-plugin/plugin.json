@@ -5,8 +5,7 @@
   "description": "Run Team Follow Up AI from Cursor: manage voice agents, campaigns, contacts, calls and the power dialer through the official hosted MCP server. Sign in with OAuth on first use.",
   "author": {
     "name": "Team Follow Up AI",
-    "email": "support@teamfollowup.ai",
-    "url": "https://teamfollowup.ai"
+    "email": "support@teamfollowup.ai"
   },
   "repository": "https://github.com/Team-Follow-Up-AI/tfuai-plugins",
   "homepage": "https://docs.teamfollowup.ai/mcp-actions",
